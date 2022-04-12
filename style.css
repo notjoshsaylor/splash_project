@@ -1,0 +1,67 @@
+
+body{
+    margin: 0;
+    font-size: 1rem;
+    font-family: Source Sans Pro, sans-serif; 
+    text-align: center;
+}
+
+h1{
+    font-weight: 300;
+    font-size: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+strong{
+    font-weight: 900;
+}
+
+.subtitle{
+    font-weight: 900;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #F18119;
+}
+
+.top-text{
+    font-weight: 900;
+    font-size: .75rem;
+    text-transform: uppercase;
+    color: #F18119;
+    order: -1;
+}
+
+.main-title{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #404040;
+}
+
+.main-subtitle{
+    font-size: 1.25rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #F18119;
+}
+
+.main-info{
+    font-size: 1.13rem;
+    font-weight: 300;
+    color:#404040;
+}
+
+.disclaimer{
+    font-size: .75rem;
+    font-weight: 300;
+    color: #404040;
+}
+
+.intro{
+    background-color: #404040;
+    background-image: url(img/ribs.jpg);
+    padding: 5em;
+    object-fit: cover;
+}
